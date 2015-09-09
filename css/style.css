@@ -1,3 +1,47 @@
 #title {
   background-color: #1f1f1f;
 }
+
+#photo {
+  background-image: url('../images/black.jpg');
+	background-size: cover;
+	height: 85%;
+}
+
+#about{
+ background-color: #4b0082;
+ height: 85%;
+}
+
+.heading {
+ font-family: 'Lato', sans-serif;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	font-weight: 100;
+	 letter-spacing: 2px;
+}
+
+#about p {
+font-family: 'Lato', sans-serif;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	font-weight: 100;
+	letter-spacing: 3px;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-top: 20px;
+}
+
+.nav_contact {
+  border: 1px solid white ;
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
+	font-size: 25px;
+	padding: 10px ;
+	margin: 75px;
+	margin-top: 270px;
+	letter-spacing: 3px;
+		
+} 
