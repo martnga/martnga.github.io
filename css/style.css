@@ -1,0 +1,21 @@
+#home{
+ background-color: #000000;
+ height: 600px;
+}
+
+#about {
+  border: 1px solid #fff ;
+	text-align: center;
+	border-radius: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+   top: 50%;
+	width: 30%;
+	height: 30%;
+} 
+
+.copyright_links {
+ color: #ED008C ;
+} 
+
