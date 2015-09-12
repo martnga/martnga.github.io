@@ -43,7 +43,7 @@
 	color: #fff;
 	margin-top: 70px;
 	height: 65%;
-	letter-spacing: 3px;
+	letter-spacing: 4px;
   font-family: 'Slabo 27px', serif;
 }
 
@@ -56,25 +56,55 @@
 }
 
 
-#title {
+#project_title {
  background-color: #000080;
  font-family: 'Raleway', sans-serif;
  color: #fff;
  height: 600px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#title span {
-  letter-spacing: 5px;
+#interest_title {
+ background-color: #AA0078;
+	font-family: 'Raleway', sans-serif;
+ color: #fff;
+ height: 600px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#row span {
+  letter-spacing: 9px;
 	font-size: 50px;
 }
 
+#space {
+ height: 1px;
+}
+ .row hr { 
+	 border: 0;
+	 height: 1px;
+	 background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); 
+ }
+
 
 #about_title {
- background-color: #824b00;
+ background-color: #B3B3D7;
  height: 600px;
- letter-spacing: 5px;
+ letter-spacing: 9px;
  font-size: 50px;
  color: #fff;
  font-family: 'Raleway', sans-serif;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer {
+   background-color: #D1CAB0;
+	 height: 150px;
 }
 
