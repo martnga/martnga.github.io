@@ -3,6 +3,18 @@
  height: 600px;
 }
 
+#nav a {
+  color: #fff;
+	font-family: 'Text Me One', sans-serif;
+	text-decoration: none;
+	padding: 0px 25px;
+	padding-top: 5px;
+	font-size: 19px;
+	letter-spacing: 2px;
+	float: right;
+}
+
+
 #about {
   border: 1px solid #E41B17 ;
 	text-align: center;
@@ -25,18 +37,6 @@
   text-decoration: none;
 }
 
-#nav a {
-  color: #fff;
-	font-family: 'Text Me One', sans-serif;
-	text-decoration: none;
-	padding: 0px 25px;
-	padding-top: 5px;
-	font-size: 19px;
-	letter-spacing: 2px;
-	float: right;
-}
-
-
 
 #nganga {
 	font-size: 29px;
@@ -51,9 +51,30 @@
  font-family: 'Text Me One', sans-serif;
  font-size: 20px;
  font-weight: 200;
-}
-
-#ishi_leo {
  font-size: 20px;
  letter-spacing: 2px;
 }
+
+
+#title {
+ background-color: #000080;
+ font-family: 'Raleway', sans-serif;
+ color: #fff;
+ height: 600px;
+}
+
+#title span {
+  letter-spacing: 5px;
+	font-size: 50px;
+}
+
+
+#about_title {
+ background-color: #824b00;
+ height: 600px;
+ letter-spacing: 5px;
+ font-size: 50px;
+ color: #fff;
+ font-family: 'Raleway', sans-serif;
+}
+
