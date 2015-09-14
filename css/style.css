@@ -4,7 +4,12 @@
 }
 
 #nav {
- position: fixed;
+ background-color: black;
+}
+
+#nav ul {
+  float: right;
+	margin-top: 7px;
 }
 
 #nav a {
@@ -96,7 +101,7 @@
 }
 
 #space {
- height: 3px;
+ height: 2px;
 }
  
 
