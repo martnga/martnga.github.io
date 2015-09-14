@@ -10,6 +10,7 @@
 	<link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Text+Me+One' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
 	
 	<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -30,10 +31,12 @@
     <!--top-->
 	<nav class="navbar navbar-inverse navbar-fixed-top" id="nav">
     <div class="container-fluid">
+			<div class="navbar-header">
+        <a class="navbar-brand" id="brand" href="#"><img src="images/triangle_lg.png"></a>
+      </div>
       <div>
         <ul class="nav navbar-nav">
-          <li><a href="#">Home</a></li>
-          <li><a href="#project">Projects</a></li>
+          <li><a href="#projects">Projects</a></li>
           <li><a href="#interests">Interests</a></li>
           <li><a href="#connect">Connect</a></li>
          </ul>
@@ -111,7 +114,16 @@
 			<div class="row" id="row">
 		 
     <div class="col-xs-12 col-md-8" id="connect">
-			.col-xs-12 .col-merterertt
+			
+			<p>Nganga, a citizen of Earth, draws inspiration from the perfection in the nature <br> and has an affinity for questions that bend the mind. <br> He believes in feeling every single moment in life and letting each soak in. <br> It made sense to fashion everything  based on the rhythm of my essence.<br> I make Android Applications.
+			</p> <br>
+			<p> To get in touch _ <br>
+				<a href="mailto:mtnjoroge@gmail.com"><img src="images/message.png" id="email"> </a>| 
+				<a href="#connect" id="call" onclick="myFunction()"><img src="images/phone.png"></a>
+			</p>
+			<p id="phone_number">+ (254) 719 116 000 </p> 
+			
+			
 		 </div>
     <div class="col-xs-6 col-md-4" id="about_title">
 			 <span>Connect</span>
@@ -131,5 +143,10 @@
 		
 	</div>
 	
+	<script>
+   function myFunction() {
+      document.getElementById("phone_number").style.color = "black";
+   }
+</script>
 </body>      
 </html>

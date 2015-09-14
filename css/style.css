@@ -23,6 +23,11 @@
 	float: right;
 }
 
+#brand {
+margin-top: 2px;
+margin-left: 2px;
+}
+
 
 #about {
   border: 1px solid #E41B17 ;
@@ -80,9 +85,9 @@
  font-family: 'Raleway', sans-serif;
  color: #fff;
  height: 600px;
-	display: flex;
-    align-items: center;
-    justify-content: center;
+ display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #interest_title {
@@ -114,9 +119,23 @@
  color: #fff;
  font-family: 'Raleway', sans-serif;
 	display: flex;
-    align-items: center;
-    justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
+
+#connect {
+  color: black;
+	text-align: center;
+	font-size: 28px;
+	letter-spacing: 2px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin-top: 45px
+}
+
+#phone_number {
+ color: #fff;	
+}
+
 
 #footer {
    background-color: #000;
