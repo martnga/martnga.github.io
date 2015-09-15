@@ -123,6 +123,30 @@ margin-left: 2px;
   justify-content: center;
 }
 
+#interests ul {
+	list-style-type: none;
+  color: black;
+	text-align: center;
+	font-size: 28px;
+	letter-spacing: 2px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin-top: 55px
+}
+
+#interests_box{
+ border: 1px solid #000;
+	height: 230px;
+	width: 500px;
+	margin:  60px auto;
+	text-align: center;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+	font-size: 28px;
+	letter-spacing: 2px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
 #connect {
   color: black;
 	text-align: center;
