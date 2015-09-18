@@ -103,10 +103,10 @@
 			
 				<ul>
 					<li>The journey of making mental pictures real.</li>
+					<li>Cosmology &amp; Tranquilty.</li>
 					<li>Still life Photography.</li>
-					<li>Defining tomorrow's normal.</li>
 					<li>Symmetry  &amp; Juxtapostion.</li>
-					<li>Cosmology &amp; Theoretical Physics.</li>
+					<li>Creating echoes in solitude.</li>
 			</ul>
 			
 			<div id="interests_box">
@@ -137,10 +137,11 @@
 			<p>Nganga, a citizen of Earth, draws inspiration from the perfection in nature <br> and has an adoration for mind-bending ideas. <br> He believes in feeling every single moment in life and leaving each to soak in. <br> It made sense to fashion everything  based on the rhythm of his essence.<br> He creates Android Applications.
 			</p> <br>
 			<p> To get in touch _ <br>
-				<a href="mailto:mtnjoroge@gmail.com"><img src="images/message.png" id="email"> </a>| 
+				<a href="#connect"  onclick="emailFunction()" ><img src="images/message.png"> </a>| 
 				<a href="#connect" id="call" onclick="myFunction()"><img src="images/phone.png"></a>
 			</p>
-			<p id="phone_number">+ (254) 719 116 000 </p> 
+			<p id="phone_number">+ (254) 719 116 000 </p>
+			<a href="mailto:mtnjoroge@gmail.com" id="email">mtnjoroge@gmail.com </a> 
 			
 			
 		 </div>
@@ -164,8 +165,31 @@
 	
 	<script>
    function myFunction() {
-      document.getElementById("phone_number").style.color = "black";
+		  var phoneNumber =  document.getElementById("phone_number");
+		  if (phoneNumber.style.color === "white")
+			{      
+				phoneNumber.style.color = "black";
+			}else{
+				phoneNumber.style.color = "white";
+			}
+     
    }
 </script>
+	
+	
+	
+	<script>
+   function emailFunction() {
+		  var email =  document.getElementById("email");
+		  if (email.style.color === "white")
+			{      
+				email.style.color = "black";
+			}else{
+				email.style.color = "white";
+			}
+   }
+</script>
+	
+	
 </body>      
 </html>
