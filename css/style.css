@@ -81,6 +81,10 @@ margin-left: 2px;
  letter-spacing: 2px;
 }
 
+#projects {
+  padding-top: 60px;
+}
+
 
 #project_title {
  background-color: #C0C0C0;
@@ -90,6 +94,22 @@ margin-left: 2px;
  display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#projects h3 {
+  font-family: 'Open Sans Condensed', sans-serif;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+
+#projects p {
+  font-family: 'Text Me One', sans-serif;
+	letter-spacing: 1px;
+	font-size: 15px;
+}
+
+#projects img {
+ height: 240px;
 }
 
 #interest_title {
@@ -107,10 +127,7 @@ margin-left: 2px;
 	font-size: 50px;
 }
 
-#space {
- height: 3px;
-}
- 
+
 
 
 #about_title {
