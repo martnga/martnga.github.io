@@ -1,6 +1,6 @@
 #home {
  background-image: url('../img/home.jpg');
-	opacity: 0.9;
+ opacity: 0.9;
 }
 
 #home h2 {
@@ -10,5 +10,10 @@
 }
 
 #home span {
-   font-family: 'Open Sans Condensed', sans-serif;
+ font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#copyright {
+	margin-top: 100px;
+ text-align: center;
 }
