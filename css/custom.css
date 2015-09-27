@@ -1,0 +1,14 @@
+#home {
+ background-image: url('../img/home.jpg');
+	opacity: 0.9;
+}
+
+#home h2 {
+ letter-spacing: 2px;
+ font-size: 55px;
+ font-family: 'Raleway', sans-serif;
+}
+
+#home span {
+   font-family: 'Open Sans Condensed', sans-serif;
+}
