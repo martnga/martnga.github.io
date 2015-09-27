@@ -11,12 +11,14 @@
 	<link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Text+Me+One' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,799' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
 
 	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
-	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+	<link rel="stylesheet" href="contacts/css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="contacts/css/style.css"> <!-- Resource style -->
+	<script src="contacts/js/modernizr.js"></script> <!-- Modernizr -->
   	
 	<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -68,34 +70,56 @@
 		<section class="cd-section contact visible">
 			<header>
 				<div class="cd-title">
-					<h2>Contact</h2>
-					<span>Some text here</span>
+					<h2>Connect</h2>
 				</div>
 
 				<a href="#contact-content" class="cd-scroll">Scroll Down</a>
 			</header>
 
 			<div class="cd-content" id="contact-content">
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae illo veritatis ea deserunt aliquam blanditiis, voluptas optio, voluptate ut accusamus veniam numquam, porro! Cum minima a molestiae, similique voluptate, perferendis vel iusto quam suscipit delectus dolore ducimus possimus illo molestias voluptas labore optio consequuntur sapiente pariatur libero nam temporibus. Laudantium!
-				</p>
+				<form class="cd-form floating-labels">
+		<fieldset>
+		
 
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae illo veritatis ea deserunt aliquam blanditiis, voluptas optio, voluptate ut accusamus veniam numquam, porro! Cum minima a molestiae, similique voluptate, perferendis vel iusto quam suscipit delectus dolore ducimus possimus illo molestias voluptas labore optio consequuntur sapiente pariatur libero nam temporibus. Laudantium!
-				</p>
-				
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae illo veritatis ea deserunt aliquam blanditiis, voluptas optio, voluptate ut accusamus veniam numquam, porro! Cum minima a molestiae, similique voluptate, perferendis vel iusto quam suscipit delectus dolore ducimus possimus illo molestias voluptas labore optio consequuntur sapiente pariatur libero nam temporibus. Laudantium!
-				</p>
-				
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae illo veritatis ea deserunt aliquam blanditiis, voluptas optio, voluptate ut accusamus veniam numquam, porro! Cum minima a molestiae, similique voluptate, perferendis vel iusto quam suscipit delectus dolore ducimus possimus illo molestias voluptas labore optio consequuntur sapiente pariatur libero nam temporibus. Laudantium!
-				</p>
+			<div class="error-message">
+				<p>Please enter a valid email address</p>
+			</div>
+
+			<div class="icon">
+				<label class="cd-label" for="cd-name">Name</label>
+				<input class="user" type="text" name="cd-name" id="cd-name" required>
+		    </div> 
+
+
+		    <div class="icon">
+		    	<label class="cd-label" for="cd-email">Email</label>
+				<input class="email error" type="email" name="cd-email" id="cd-email" required>
+		    </div>
+		</fieldset>
+
+		<fieldset>
+		
+
+			
+
+			<div class="icon">
+				<label class="cd-label" for="cd-textarea">Write Something</label>
+      			<textarea class="message" name="cd-textarea" id="cd-textarea" required></textarea>
+			</div>
+
+			<div>
+		      	<input type="submit" value="Send Message">
+		    </div>
+		</fieldset>
+	</form>
 			</div> <!-- .cd-content -->
 		</section> <!-- .cd-section -->
 	</main> <!-- .cd-main -->
 
 	<div id="cd-loading-bar" data-scale="1" class="contact"></div> <!-- lateral loading bar -->
+<script src="contacts/js/jquery-2.1.1.js"></script>
+<script src="contacts/js/main.js"></script> <!-- Resource jQuery -->
+
 <script src="js/jquery-2.1.4.js"></script>
 <script src="js/velocity.min.js"></script>
 <script src="js/main.js"></script> <!-- Resource jQuery -->
