@@ -1,43 +1,22 @@
 <!doctype html>
 <html lang="en" class="no-js">
 <head>
-	<meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>HIS Forte</title>
-	<link rel="icon" type="image/png" href="images/title.png" />
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
-	<link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Text+Me+One' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
 
 	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
-	  
-	<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-65063952-3', 'auto');
-  ga('send', 'pageview');
-
-</script>
-	
-	</head>
+  	
+	<title>Animated Page Transition #2 | CodyHouse</title>
+</head>
 <body>
-
-  <nav class="cd-side-navigation">
+	<nav class="cd-side-navigation">
 		<ul>
 			<li>
-				<a href="#0" class="selected" data-menu="index">
+				<a href="#0" data-menu="index">
 					<svg class="nc-icon outline" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24"><g transform="translate(0, 0)"> <polygon fill="none" stroke="#4a5261" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2 3,10 3,23 9,23 9,16 15,16 15,23 21,23 21,10 " stroke-linejoin="miter"></polygon> </g></svg>
 					Intro
 				</a>
@@ -51,7 +30,7 @@
 			</li>
 
 			<li>
-				<a href="#0" data-menu="projects">
+				<a href="#0" class="selected" data-menu="projects">
 					<svg class="nc-icon outline" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24"><g transform="translate(0, 0)"> <rect x="1" y="1" fill="none" stroke="#4a5261" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" width="22" height="22" stroke-linejoin="miter"></rect> <rect data-color="color-2" x="5" y="5" fill="none" stroke="#4a5261" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" width="5" height="5" stroke-linejoin="miter"></rect> <rect data-color="color-2" x="14" y="5" fill="none" stroke="#4a5261" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" width="5" height="5" stroke-linejoin="miter"></rect> <rect data-color="color-2" x="5" y="14" fill="none" stroke="#4a5261" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" width="5" height="5" stroke-linejoin="miter"></rect> <rect data-color="color-2" x="14" y="14" fill="none" stroke="#4a5261" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" width="5" height="5" stroke-linejoin="miter"></rect> </g></svg>
 					Projects
 				</a>
@@ -68,17 +47,17 @@
 	</nav> <!-- .cd-side-navigation -->
 	
 	<main class="cd-main">
-		<section class="cd-section index visible">
+		<section class="cd-section projects visible">
 			<header>
 				<div class="cd-title">
-					<h2>Animated Page Transition #2</h2>
+					<h2>Projects</h2>
 					<span>Some text here</span>
 				</div>
 
-				<a href="#index-content" class="cd-scroll">Scroll Down</a>
+				<a href="#projects-content" class="cd-scroll">Scroll Down</a>
 			</header>
 
-			<div class="cd-content" id="index-content">
+			<div class="cd-content" id="projects-content">
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae illo veritatis ea deserunt aliquam blanditiis, voluptas optio, voluptate ut accusamus veniam numquam, porro! Cum minima a molestiae, similique voluptate, perferendis vel iusto quam suscipit delectus dolore ducimus possimus illo molestias voluptas labore optio consequuntur sapiente pariatur libero nam temporibus. Laudantium!
 				</p>
@@ -98,12 +77,9 @@
 		</section> <!-- .cd-section -->
 	</main> <!-- .cd-main -->
 
-	<div id="cd-loading-bar" data-scale="1" class="index"></div> <!-- lateral loading bar -->
+	<div id="cd-loading-bar" data-scale="1" class="projects"></div> <!-- lateral loading bar -->
 <script src="js/jquery-2.1.4.js"></script>
 <script src="js/velocity.min.js"></script>
 <script src="js/main.js"></script> <!-- Resource jQuery -->
-		
-   
-	
-</body>      
+</body>
 </html>
