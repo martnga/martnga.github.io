@@ -34,8 +34,18 @@ body {
  color: white;
  letter-spacing: 3px;
   font-family: 'Dosis', sans-serif;
+	opacity: 1;
+	text-align: center;
 }
 
+#connect {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+ margin-top: 30vh;
+}
 
 #projects {
  padding-top: 10vh;
