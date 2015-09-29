@@ -60,3 +60,16 @@ h1 a {
  	
 }
 
+#footer {
+	display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+ color: beige;
+	letter-spacing: 3px;
+  font-family: 'Dosis', sans-serif;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+}
+
