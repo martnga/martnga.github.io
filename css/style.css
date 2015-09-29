@@ -1,5 +1,5 @@
 body {
- 
+  background-color: #2c3e50;
 }
 
 #outer-home {
@@ -21,6 +21,11 @@ body {
 	
 }
 
+h1 a {
+	float: left;
+	margin-left: 25px;
+}
+
 #outer-projects {
  display: flex;
  flex-direction: row;
@@ -31,11 +36,12 @@ body {
 }
 
 #heading {
- color: white;
+ color: beige;
  letter-spacing: 3px;
   font-family: 'Dosis', sans-serif;
 	opacity: 1;
 	text-align: center;
+
 }
 
 #connect {
